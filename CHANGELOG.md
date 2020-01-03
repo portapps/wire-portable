@@ -4,6 +4,7 @@
 
 * Wire 3.12.3423
 * Add `cleanup` config
+* Wire is now based on Electron 6
 * Portapps 1.31.0
 
 ## 3.11.3259-5 (2019/11/03)

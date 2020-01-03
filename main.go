@@ -39,6 +39,9 @@ func main() {
 
 	app.Process = utl.PathJoin(electronBinPath, "Wire.exe")
 	app.WorkingDir = electronBinPath
+	app.Args = []string{
+		"--user-data-dir=" + app.DataPath,
+	}
 
 	// Cleanup on exit
 	if cfg.Cleanup {
