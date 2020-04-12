@@ -1,5 +1,8 @@
 module github.com/portapps/wire-portable
 
-go 1.12
+go 1.13
 
-require github.com/portapps/portapps v1.31.0
+require (
+	github.com/portapps/portapps/v2 v2.0.5
+	github.com/rs/zerolog v1.18.0
+)
